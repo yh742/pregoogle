@@ -9,7 +9,11 @@ A simple web app that uses ML to predict if a recipe is safe or not safe for pre
     * Certain foods are only unsafe based on style of preparation.
 
 ## Solution
-Websites could start placing icons beside recipes not recommended for pregnant women. In this prototype, a search site will scrape AllRecipes.com as input for our model.
+Websites could start placing icons beside recipes not recommended for pregnant women. 
+
+In this prototype, I created a search site that will scrape AllRecipes.com based on the recipe ID to determine if the food is safe. The presentation can be seen here:
+
+https://docs.google.com/presentation/d/1r1hnA1MNYzTb8FjMDCmpkGqsSh0F2YmVTOS1Nki4gXY/edit#slide=id.p3
 
 ## Implmentation overview
 1. Use python to scrape reviews from allrecipes.com
